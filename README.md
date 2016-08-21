@@ -1,16 +1,19 @@
-# test-js
+# `quil-starter`
 
-A Quil sketch designed to ... well, that part is up to you.
+Just a personal convenience project, saving these setup steps for a new [ClojureScript `quil` sketch](http://quil.info):
+
+1. ran [`lein new quil-cljs`](http://quil.info)
+2. added [`figwheel` dependency](https://nbeloglazov.com/2015/06/15/live-reloading-in-quil-cljs.html)
+3. ran [`lein ancient`](https://github.com/xsc/lein-ancient) and [`lein ancient plugins`](https://github.com/xsc/lein-ancient) to update dependencies
+4. added `figwheel` log files to `.gitignore`
 
 ## Usage
 
-Run `lein compile` command and open `index.html` in your browser.
-
-For interactive development run `lein cljsbuild auto` command. This command will be recompiling cljs to js each time you modify `core.cljs` and you can see result immediately by refreshing page.
+Run `lein figwheel` command and open `index.html` in your browser.
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2016 Bill Tozier
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
