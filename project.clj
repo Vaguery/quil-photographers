@@ -1,4 +1,4 @@
-(defproject quil-starter "0.1.0-SNAPSHOT"
+(defproject photographers "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
@@ -16,8 +16,8 @@
              :source-paths ["src"]
              :figwheel true
              :compiler
-               {:output-to "js/main.js"
+               {:output-to "js/photographers.js"
                 :output-dir "out"
-                :main "quil_starter.core"
+                :main "photographers.core"
                 :optimizations :none
                 :pretty-print true}}]})
